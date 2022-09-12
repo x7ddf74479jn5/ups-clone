@@ -8,7 +8,7 @@ type CustomerList = {
   value: Customer;
 };
 
-type trackingItem = {
+type TrackingItem = {
   customer_id: ID;
   customer: Customer;
   items: Item[];
